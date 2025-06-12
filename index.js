@@ -12,7 +12,7 @@ const ytdl = require('ytdl-core');
 const axios = require('axios');
 
 // Replace with your bot token from BotFather
-const BOT_TOKEN = process.env.BOT_TOKEN || 'AAFGIqwmJp-dKFy3DfxNScHNR_TiqxJIrzk';
+const BOT_TOKEN = process.env.BOT_TOKEN || '7908679054:AAFGIqwmJp-dKFy3DfxNScHNR_TiqxJIrzk';
 
 // Validate bot token before creating bot instance
 if (!BOT_TOKEN || BOT_TOKEN === 'AAFGIqwmJp-dKFy3DfxNScHNR_TiqxJIrzk') {
