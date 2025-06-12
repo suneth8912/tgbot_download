@@ -12,16 +12,16 @@ const ytdl = require('ytdl-core');
 const axios = require('axios');
 
 // Replace with your bot token from BotFather
-const BOT_TOKEN = process.env.BOT_TOKEN || 'YOUR_BOT_TOKEN_HERE';
+const BOT_TOKEN = process.env.BOT_TOKEN || '7908679054:AAFGIqwmJp-dKFy3DfxNScHNR_TiqxJIrzk';
 
 // Validate bot token before creating bot instance
-if (!BOT_TOKEN || BOT_TOKEN === 'YOUR_BOT_TOKEN_HERE') {
+if (!BOT_TOKEN || BOT_TOKEN === '7908679054:AAFGIqwmJp-dKFy3DfxNScHNR_TiqxJIrzk') {
   console.error('❌ Bot token is not configured!');
   console.error('💡 Please follow these steps:');
   console.error('1. Message @BotFather on Telegram');
   console.error('2. Create a new bot with /newbot');
   console.error('3. Copy the bot token');
-  console.error('4. Create a .env file with: BOT_TOKEN=your_token_here');
+  console.error('4. Create a .env file with: BOT_TOKEN=7908679054:AAFGIqwmJp-dKFy3DfxNScHNR_TiqxJIrzk');
   console.error('5. Or set the BOT_TOKEN environment variable');
   process.exit(1);
 }
